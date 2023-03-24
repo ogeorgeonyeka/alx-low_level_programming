@@ -1,15 +1,16 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * mul - multiplies two integers
- * @a: The first integer
- * @b: The second integer
- * Return: Always 0
+ * _isdigit- check for a digit
+ * @c: The character to be checked
+ * Return: 1 for digit character or 0 for anything else
  */
 
-int mul(int a, int b)
+int _isdigit(int c)
 {
-int result = a * b;
-return (result);
+if (c >= 48 && c <= 57)
+{
+return (1);
+}
+return (0);
 }
