@@ -13,7 +13,7 @@ int main(void)
 	
 	for (i = 3 ; i < 782849 ; i = i + 2)
 	{
-		while ((n % i == 0) && (n != i))
+		while (n % i == 0)
 			n = n / i;
 	}
 	printf("%u\n", n);
