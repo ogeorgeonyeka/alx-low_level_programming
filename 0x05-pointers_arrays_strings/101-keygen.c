@@ -39,5 +39,5 @@ int main(void)
 	printf("\nHit Enter to Exit\n");
 	getchar();
 	getchar();
+	return (0);
 }
-
